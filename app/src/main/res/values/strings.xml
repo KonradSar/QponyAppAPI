@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QponyApp</string>
+    <string name="greeting">Opening details</string>
+    <string name="start">Go To List</string>
+    <string name="welcome_please_click_button_below">Welcome, Please Click Button Below</string>
+    <string name="designed_by_konrad_sar">Designed By Konrad Sar</string>
+    <string name="no_internet">Please, Turn On Internet Connection</string>
+    <string name="warning">Data Processing Warning!</string>
+    <string name="details">It will take a few seconds until the currencies list is ready for display</string>
+    <string name="connection_problem">Server Problem, The List Is Empty</string>
+    <string name="quit">Do you want to quit app?</string>
+    <string name="please_press_the_button_once_and_wait_for_a_while">Please Press The Button Once And Wait !</string>
+</resources>

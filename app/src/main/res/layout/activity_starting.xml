@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    tools:context="com.example.konrad.qponyapp.StartingActivity"
+    android:orientation="vertical">
+    <TextView
+            android:id="@+id/greetingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/welcome_please_click_button_below"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:background="@drawable/ripple"
+            android:layout_below="@+id/greetingTextView"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/attention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/please_press_the_button_once_and_wait_for_a_while"
+        android:textSize="17sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/startBtn"
+        android:layout_margin="15dp"/>
+
+</RelativeLayout>
