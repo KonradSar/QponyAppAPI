@@ -55,8 +55,8 @@ public class StartingActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View v) {
-                // Na poczatek cofamy sie o 2 dni wstecz
-                MainView.prepareListOfDatesFromThePast(1);
+                // Na poczatek cofamy sie o 100 dni wstecz
+                MainView.prepareListOfDatesFromThePast(100);
                 if(isNetworkAvailable()){
                     prepareCurrenciesLabelsFromApiNBP();
                     getCurrenciesRates();
